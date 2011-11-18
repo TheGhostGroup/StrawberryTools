@@ -1,3 +1,3 @@
 @echo off
-SilinoronParser.exe -file ramkahet.pkt -loader pkt -tosql true
+SilinoronParser.exe -file PacketDump.87851750 -loader Fabi -tosql true
 PAUSE
