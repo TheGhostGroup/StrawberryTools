@@ -1,0 +1,18 @@
+Id,Description
+Directions,Used for Guards and Teleporter NPC's.
+Gunner,Indicator of a Turret NPC/Player Controlled.
+vehichleCursor,Indicator that this is a PCV (Player Controlled Vehicle)
+Driver,Shows a Steering Wheel icon when mouse over.
+Attack,Shows a Sword icon indicating you can attack this target.
+Buy,Shows a Brown Bag icon usually if the NPC only sells things.
+Speak,Shows a Chat Bubble icon if this NPC has Quest/Gossip options.
+Pickup,Shows a Hand Grasping icon of if this NPC can be picked up for quest/items.
+Interact,Shows Cog icon commonly used for quest/transport.
+Trainer,Shows a Book icon, identifying this NPC as a "Trainer".
+Taxi,Shows a Boot w/Wings icon identifying this NPC as a "Taxi".
+Repair,Shows a Anvil icon identifying this npc as a Repair NPC.
+LootAll,Shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
+Quest,Unused or Unknown. (See EntryID 32870 The Real Ronakada).
+PVP,Unused or Unknown.(See EntryID 29387 Arena Master: Dalaran Arena).
+Reforge,
+EngineerSkin,
