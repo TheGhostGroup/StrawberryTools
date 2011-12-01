@@ -47,7 +47,7 @@ tbGOData28,data28
 tbGOData29,data29
 tbGOData30,data30
 tbGOData31,data31
-tbGOUnk2,unk2
+-,unkInt32
 tbGOAIName,AIName
 tbGOScriptName,scriptname
-tbGOWDB,wdbverified
+tbGOWDB,WDBverified
