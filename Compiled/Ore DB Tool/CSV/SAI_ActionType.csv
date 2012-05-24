@@ -1,0 +1,101 @@
+Id,ActionType
+0,None,Do nothing
+1,Talk,Param2 in Milliseconds.
+2,Set_Faction,
+3,Morph_To_Entry_Or_Model,Take DisplayID of creature (param1) OR Turn to DisplayID (param2) OR Both = 0 for Demorph
+4,Sound,Play Sound
+5,Play_Emote,Play Emote
+6,Fail_Quest,Fail Quest of Target
+7,Add_Quest,Add Quest to Target
+8,Set_React_State,React State. Can be Aggressive, Passive or Defensive.
+9,Activate_Gobject,Activate Object
+10,Random_Emote,Play Random Emote
+26,Call_Groupeventhappens,
+11,Cast,Cast Spell ID at Target
+12,Summon_Creature,Summon Unit
+13,Threat_Single_Pct,Change Threat Percentage for Single Target
+14,Threat_All_Pct,Change Threat Percentage for All Enemies
+15,Call_Areaexploredoreventhappens,
+16,Send_Castcreatureorgo,
+17,Set_Emote_State,Play Emote Continuously
+18,Set_Unit_Flag,Can set Multi-able flags at once
+19,Remove_Unit_Flag,Can Remove Multi-able flags at once
+20,Auto_Attack,Stop or Continue Automatic Attack.
+21,Allow_Combat_Movement,Allow or Disable Combat Movement
+22,Set_Event_Phase,
+23,Inc_Event_Phase,Set param1 OR param2 (not both). Value 0 has no effect.
+24,Evade,Evade Incoming Attack
+25,Flee_For_Assist,If you want the fleeing NPC to say '%s attempts to run away in fear!' on flee, use 1 on param1. 0 for no message.
+27,Call_Castedcreatureorgo,
+28,Removeaurasfromspell,
+29,Follow,Follow Target
+30,Random_Phase,
+31,Random_Phase_Range,
+32,Reset_Gobject,Reset Gameobject
+33,Call_Killedmonster,This is the ID from quest_template.RequiredNpcOrGo
+34,Set_Inst_Data,Set Instance Data
+35,Set_Inst_Data64,Set Instance Data uint64
+36,Update_Template,
+37,Die,Kill Target
+38,Set_In_Combat_With_Zone,
+39,Call_For_Help,
+40,Set_Sheath,
+41,Force_Despawn,Despawn Target after param1 Milliseconds
+42,Set_Invincibility_Hp_Level,
+43,Mount_To_Entry_Or_Model,Mount to Creature Entry (param1) OR Mount to Creature Display (param2) Or both = 0 for Unmount
+44,Set_Ingame_Phase_Mask,
+45,Set_Data,Set Data For Target, can be used with SMART_EVENT_DATA_SET
+46,Move_Forward,
+47,Set_Visibility,
+48,Set_Active,
+49,Attack_Start,
+50,Summon_Go,
+51,Kill_Unit,
+52,Activate_Taxi,
+53,Wp_Start,
+54,Wp_Pause,
+55,Wp_Stop,
+56,Add_Item,
+57,Remove_Item,
+58,Install_Ai_Template,
+59,Set_Run,
+60,Set_Fly,
+61,Set_Swimm,
+62,Teleport,Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z, target_o as the coordinates
+63,Store_Variable_Decimal,
+64,Store_Target_List,
+65,Wp_Resume,
+66,Set_Orientation,
+67,Create_Timed_Event,
+68,Playmovie,
+69,Move_To_Pos,
+70,Respawn_Target,
+71,Equip,only slots with mask set will be sent to client, bits are 1, 2, 4, leaving mask 0 is defaulted to mask 7 (send all), Slots1-3 are only used if no Param1 is set
+72,Close_Gossip,gossip_menu_option.action_menu_id must be 0, and target_type must be 7
+73,Trigger_Timed_Event,
+74,Remove_Timed_Event,
+75,Add_Aura,
+76,Override_Script_Base_Object,WARNING: CAN CRASH CORE, do not use if you dont know what you are doing
+77,Reset_Script_Base_Object,
+78,Call_Script_Reset,
+79,Enter_Vehicle,
+80,Call_Timed_Actionlist,
+81,Set_Npc_Flag,
+82,Add_Npc_Flag,
+83,Remove_Npc_Flag,
+84,Simple_Talk,Makes a player say text. SMART_EVENT_TEXT_OVER is not triggered and whispers can not be used.
+85,Invoker_Cast,if avaliable, last used invoker will cast spellId with castFlags on targets
+86,Cross_Cast,
+87,Call_Random_Timed_Actionlist,Will select one entry from the ones provided. 0 is ignored.
+88,Call_Random_Range_Timed_Actionlist,0 is ignored.
+89,Random_Move,
+90,Set_Unit_Field_Bytes_1,
+91,Remove_Unit_Field_Bytes_1,
+92,Interrupt_Spell,This action allows you to interrupt the current spell being cast. If you do not set the spellId, the core will find the current spell depending on the withDelay and the withInstant values.
+93,Go_Custom_Anim,
+94,Set Dynamic Flag,
+95,Add Dynamic Flag,
+96,Remove Dynamic Flag,
+97,Jump To POS,
+98,Send Gossip Menu,Can be used together with 'SMART_EVENT_GOSSIP_HELLO' to set custom gossip.
+99,Go Set Loot State,

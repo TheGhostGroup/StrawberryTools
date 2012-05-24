@@ -1,0 +1,72 @@
+Id,EventType
+0,Update IC,Updates In combat.
+1,Update OOC, Updates Out of combat.
+2,Healt Pct,Health Percentage
+3,Mana Pct,Mana Percentage
+4,Aggro,On Creature Aggro
+5,Kill,On Creature Kill
+6,Death,On Creature Death
+7,Evade,On Creature Evade Attack
+8,Spellhit,On Creature/Gameobject Spell Hit
+9,Range,On Target In Range
+10,OOC Los,On Target In Distance Out of Combat
+11,Respawn,On Creature/Gameobject Respawn
+12,Target Health Pct,On Target Health Percentage
+13,Target Casting,On Target Casting Spell
+14,Friendly Health,On Friendly Health Deficit
+15,Friendly Is Cc,
+16,Friendly Missing Buff,On Friendly Lost Buff
+17,Summoned Unit,On Creature/Gameobject Summoned Unit
+18,Target Mana Pct,On Target Mana Percentage
+19,Accepted Quest,On Target Accepted Quest
+20,Reward Quest,On Target Rewarded Quest
+21,Reached Home,On Creature Reached Home
+22,Receive Emote,val1 val2 val3 (?)
+23,Has Aura,On Creature Has Aura
+24,Target Buffed,On Target Buffed With Spell
+25,Reset,After Combat, On Respawn or Spawn
+26,Ic los,On Target In Distance In Combat
+27,Passenger Boarded,
+28,Passenger Removed,
+29,Charmed,On Creature Charmed
+30,Charmed Target,On Target Charmed
+31,Spellhit Target,On Target Spell Hit
+32,Damaged,On Creature Damaged
+33,Damaged Target,On Target Damaged
+34,Movementinform,
+35,Summon Despawned,On Summoned Unit Despawned
+36,Corpse Removed,On Creature Corpse Removed
+37,Ai Init,
+38,Data Set,On Creature/Gameobject Data Set Can be used with SMART_ACTION_SET_DATA
+39,Waypoint Start,On Creature Waypoint ID Started
+40,Waypoint Reached,On Creature Waypoint ID Reached
+41,Transport Addplayer,
+42,Transport Addcreature,
+43,Transport Remove Player,
+44,Transport Relocate,
+45,Instance Player Enter,
+46,Areatrigger ontrigger,
+47,Quest Accepted,On Target Quest Accepted
+48,Quest Obj Copletetion,On Target Quest Objective Completed
+49,Quest Completion,On Target Quest Completed
+50,Quest Rewarded,On Target Quest Rewarded
+51,Quest Fail,On Target Quest Failed
+52,Text Over,On TEXT_OVER Event Triggered After SMART_ACTION_TALK
+53,Receive Heal,On Creature Received Healing
+54,Just Summoned,On Creature Just spawned
+55,Waypoint Paused,On Creature Paused at Waypoint ID
+56,Waypoint Resumed,On Creature Resumed after Waypoint ID
+57,Waypoint Stopped,On Creature Stopped On Waypoint ID
+58,Waypoint Ended,On Creature Waypoint Path Ended
+59,Timed Triggered,
+60,Update,
+61,Link,used to link together multiple events
+62,Gossip Select,
+63,Just Created,
+64,Gossip Hello,
+65,Follow Completed,
+66,Dummy Effect,
+67,Is Behind Target,
+68,Game Event Start,
+69,Game Event End,
+70,Go State Changed,
