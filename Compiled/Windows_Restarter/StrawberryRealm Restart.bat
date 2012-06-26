@@ -4,7 +4,7 @@ if NOT exist StrawberryRealm.exe GoTO END
 ECHO StrawberryRealm Started %time:~0,5% %date:~1% >> .\RealmRestarter.log
 :RESTART 
 StrawberryRealm.exe
-ECHO TrinityLogon Restarted %time:~0,5% %date:~1% >> .\RealmRestarter.log
+ECHO StrawberryRealm Restarted %time:~0,5% %date:~1% >> .\RealmRestarter.log
 ECHO. 
 GOTO RESTART 
 :END
